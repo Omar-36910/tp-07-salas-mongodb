@@ -1,0 +1,25 @@
+<div class="encabezado-seccion">
+  <h1><%= titulo %></h1>
+  <span class="badge-seccion"><%= seccion %></span>
+</div>
+
+<p><a href="/reservas/nueva" class="btn btn-secundario">+ Crear Nueva Reserva</a></p>
+
+<% if (reservas.length === 0) { %>
+  <div class="estado-vacio">
+    <p>No existen reservas registradas en este momento.</p>
+  </div>
+<% } else { %>
+  <div class="grilla">
+    <% reservas.forEach(function(reserva) { %>
+      <article class="tarjeta">
+        <h2><%= reserva.sala %></h2>
+        <p><strong>Estudiante:</strong> <%= reserva.estudiante %></p>
+        <p><strong>Fecha:</strong> <%= reserva.fecha %></p>
+        <p><strong>Turno:</strong> <%= reserva.turno %></p>
+        <p><strong>Personas:</strong> <%= reserva.personas %></p>
+        <a href="/reservas/<%= reserva.id %>" class="btn">Ver Detalle</a>
+      </article>
+    <% }); %>
+  </div>
+<% } %>

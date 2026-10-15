@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= titulo %></title>
+  <link rel="stylesheet" href="/css/estilos.css">
+</head>
+<body>
+  <header>
+    <div class="contenedor header-contenido">
+      <span class="logo">Biblioteca - Reserva de Salas</span>
+      <nav>
+        <a href="/">Inicio</a>
+        <a href="/reservas">Reservas</a>
+        <a href="/reservas/nueva">Nueva Reserva</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contenedor">
+    <%- body %>
+  </main>
+
+  <footer>
+    <div class="contenedor footer-contenido">
+      <p>&copy; 2026 Sistema de Gestión de Salas de Estudio</p>
+      <span class="solicitud-badge">Solicitud: <%= solicitudId %></span>
+    </div>
+  </footer>
+</body>
+</html>

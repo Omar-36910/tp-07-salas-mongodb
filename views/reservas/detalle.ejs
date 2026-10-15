@@ -1,0 +1,16 @@
+<div class="encabezado-seccion">
+  <h1><%= titulo %></h1>
+  <span class="badge-seccion"><%= seccion %></span>
+</div>
+
+<article class="tarjeta-detalle">
+  <p><strong>ID de Reserva:</strong> <%= reserva.id %></p>
+  <p><strong>Estudiante:</strong> <%= reserva.estudiante %></p>
+  <p><strong>Correo Electrónico:</strong> <%= reserva.email %></p>
+  <p><strong>Sala Asignada:</strong> <%= reserva.sala %></p>
+  <p><strong>Fecha:</strong> <%= reserva.fecha %></p>
+  <p><strong>Turno:</strong> <%= reserva.turno %></p>
+  <p><strong>Cantidad de Personas:</strong> <%= reserva.personas %></p>
+</article>
+
+<p><a href="/reservas" class="btn btn-secundario">← Volver al Listado</a></p>

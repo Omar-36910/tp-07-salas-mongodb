@@ -1,0 +1,38 @@
+﻿**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20261015134908
+Nombre de usuario: DESKTOP-9SJQUKA\Roman
+Usuario RunAs: DESKTOP-9SJQUKA\Roman
+Nombre de la configuración: 
+Máquina: DESKTOP-9SJQUKA (Microsoft Windows NT 10.0.17763.0)
+Aplicación host: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Id. de proceso: 3244
+PSVersion: 5.1.17763.9376
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.9376
+BuildVersion: 10.0.17763.9376
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+La transcripción ha comenzado. El archivo de salida es C:\ruta\de\tu\archivo.txt
+PS C:\Users\Roman\Desktop\Back End Node.js Cohorte 6\tp-07-salas-mongodb> node --env-file=.env scripts/comprobar-conexion.js
+Conexión exitosa a MongoDB Atlas.
+Desconexión de MongoDB Atlas completada.
+Prueba de conexión finalizada con éxito.
+PS C:\Users\Roman\Desktop\Back End Node.js Cohorte 6\tp-07-salas-mongodb> node --env-file=.env scripts/listar-reservas.js
+
+PS C:\Users\Roman\Desktop\Back End Node.js Cohorte 6\tp-07-salas-mongodb> node --env-file=.env scripts/crear-reserva.js
+
+PS C:\Users\Roman\Desktop\Back End Node.js Cohorte 6\tp-07-salas-mongodb> node --env-file=.env scripts/comprobar-conexion.js
+
+PS C:\Users\Roman\Desktop\Back End Node.js Cohorte 6\tp-07-salas-mongodb> node --env-file=.env scripts/listar-reservas.js
+
+PS C:\Users\Roman\Desktop\Back End Node.js Cohorte 6\tp-07-salas-mongodb> node --env-file=.env scripts/listar-reservas.js
+
+PS C:\Users\Roman\Desktop\Back End Node.js Cohorte 6\tp-07-salas-mongodb> Stop-Transcript
+**********************
+Fin de la transcripción de Windows PowerShell
+Hora de finalización: 20261015140656
+**********************
